@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "MobileCopilot",
+    "slug": "MobileCopilot",
+    "version": "1.0.0",
+    "scheme": "mobilecopilot",
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/splash.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-dev-launcher",
+        {
+          "launchMode": "most-recent"
+        }
+      ],
+      "expo-font"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arnniharika.MobileCopilot"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.arnniharika.MobileCopilot"
+    },
+    "extra": {
+      "clerkPublishableKey": "${EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY}",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "59c6addd-b1a2-4db6-a791-5d17012c1b96"
+      }
+    },
+    "newArchEnabled": true
+  }
+}
