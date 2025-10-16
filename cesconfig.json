@@ -1,6 +1,6 @@
 {
   "cesVersion": "2.14.1",
-  "projectName": "MobileCopilot",
+  "projectName": "GenAI2",
   "packages": [
     {
       "name": "expo-router",

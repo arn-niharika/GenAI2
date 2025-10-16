@@ -1,5 +1,19 @@
 // utils.tsx (or utils.ts)
 import { useUser } from '@clerk/clerk-expo';
+import Toast from 'react-native-toast-message';
+
+export const notify = (message: string, type: 'success' | 'error' = 'success') => {
+  Toast.show({
+    type,
+    text1: type === 'success' ? 'Success' : 'Error',
+    text2: message,
+    visibilityTime: 4000,
+    position: 'top',
+    // style: { backgroundColor: type === 'success' ? '#10B981' : '#EF4444' }, // Removed unsupported property
+    text1Style: { fontSize: 16, color: 'white' },
+    text2Style: { fontSize: 14, color: 'white' },
+  });
+};
 
 
   export interface SideNavbarProps {

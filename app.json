@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "MobileCopilot",
-    "slug": "MobileCopilot",
+    "name": "GenAI2",
+    "slug": "GenAI2",
     "version": "1.0.0",
-    "scheme": "mobilecopilot",
+    "scheme": "genai2",
     "web": {
       "bundler": "metro",
       "output": "static",
@@ -36,14 +36,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.arnniharika.MobileCopilot"
+      "bundleIdentifier": "com.arnniharika.genai2"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.arnniharika.MobileCopilot"
+      "package": "com.arnniharika.genai2"
     },
     "extra": {
       "clerkPublishableKey": "${EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY}",
@@ -51,9 +51,10 @@
         "origin": false
       },
       "eas": {
-        "projectId": "59c6addd-b1a2-4db6-a791-5d17012c1b96"
+        "projectId": "219f470f-451d-44c1-b42f-dcc1f6df473c"
       }
     },
-    "newArchEnabled": true
+    "newArchEnabled": true,
+    "owner": "arn-niharika"
   }
 }
