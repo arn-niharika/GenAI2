@@ -82,7 +82,7 @@ const TabsLayout = () => {
               color: colors.text,
               marginLeft: 8
             }}>
-              GenLog AI
+              Gen AI
             </Text>
           </View>
 

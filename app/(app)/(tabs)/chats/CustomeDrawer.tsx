@@ -276,7 +276,7 @@ const CustomDrawerContent: React.FC<CustomDrawerContentProps> = (props) => {
             <View className="px-4 py-3" style={{ flexDirection: 'row', alignItems:'center', gap:8, borderBottomColor: colors.border }}>
                {LogoSVG()}
               <Text className="text-xl font-bold" style={{ color: colors.text }}>
-                GenLog AI
+                Gen AI
               </Text>
             </View>
 

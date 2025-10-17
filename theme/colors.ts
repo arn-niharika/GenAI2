@@ -29,6 +29,8 @@ export const lightColors = {
   grey5: '#AAAAAA',
   grey6: '#888888',
   foreground: '#000000',
+  brandPrimary: '#2F9A92',
+  brandSecondary: '#2C72FF'
 
 };
 
@@ -62,6 +64,8 @@ export const darkColors = {
   grey5: '#333333',
   grey6: '#222222',
   foreground: '#FFFFFF',
+  brandPrimary: '#2F9A92',
+  brandSecondary: '#2C72FF'
 };
 
 export const BASE_COLORS = {
