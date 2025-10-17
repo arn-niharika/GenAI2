@@ -92,6 +92,22 @@ export const HomeIcon = ({color} : {color: string})  => {
       </Svg>
     );
   };
+
+   export const MultiSeclectIcon = () => {
+    return (
+      <Svg
+    width={16}
+    height={16}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="white"
+    strokeWidth={2}
+  >
+    <Path d="M9 11l3 3L22 4" />
+    <Path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
+  </Svg>
+    );
+  };
   
   // Custom SVG Users Icon component (you'll need to create this with your own SVG path)
  export  const UsersIcon = ({color}: {color: string}) => {  
